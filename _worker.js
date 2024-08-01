@@ -7,11 +7,11 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // https://www.uuidgenerator.net/
-let userID = '89b3cbba-e6ac-485a-9481-976a0415eab9';
+let userID = '1d2999c6-9d78-41dd-af1b-f47ec03b0ee7';
 
 // https://www.nslookup.io/domains/cdn.xn--b6gac.eu.org/dns-records/
 // https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/
-const proxyIPs= ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
+const proxyIPs= ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org','cdn5.troymckenzie.nom.za','cdn4.troymckenzie.nom.za','cdn3.troymckenzie.nom.za','cdn2.troymckenzie.nom.za','cdn1.troymckenzie.nom.za'];
 
 const defaultHttpPorts = ['80', '8080', '2052', '2082', '2086', '2095', '8880'];
 const defaultHttpsPorts = ['443', '8443', '2053', '2083', '2087', '2096'];
@@ -129,7 +129,7 @@ export default {
 
                         let secretKey = await env.bpb.get('secretKey');
                         const pwd = await env.bpb.get('pwd');
-                        if (!pwd) await env.bpb.put('pwd', 'admin');
+                        if (!pwd) await env.bpb.put('p_=zR'Ae!wq>]:wFak#9', 'CF-works-BPB');
 
                         if (!secretKey) {
                             secretKey = generateSecretKey();
